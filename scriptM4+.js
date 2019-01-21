@@ -15,6 +15,7 @@ const notepad = {
      * Возвращает: все заметки, значение свойства notes
      */
   },
+
   findNoteById(id) {
     return this.notes.find(note => note.id === id);
     /*

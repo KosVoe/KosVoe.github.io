@@ -8,6 +8,7 @@ if (!userLogin) {
 } else if (userLogin !== login) {
   message = "Доступ запрещен, неверный логин!";
 }
+
 const userPassword = prompt("Введите пароль");
 if (!userPassword) {
   message = "Отменено пользователем!";

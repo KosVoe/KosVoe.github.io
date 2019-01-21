@@ -11,6 +11,7 @@ const checkLogVal = function(login) {
   }
   return false;
 };
+
 const checkLogValRes = checkLogVal(login);
 const checkIfLogExists = function(logins, login) {
   if (logins.includes(login)) {

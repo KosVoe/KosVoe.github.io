@@ -4,6 +4,7 @@ const placesHurgada = 25;
 const placesTaba = 26;
 const places = prompt("Введите число необходимых мест");
 debugger;
+
 if (!places) {
   alert("Нам очень жаль, приходите еще!");
 } else if (places < 1 || places % 1 !== 0) {

@@ -21,3 +21,4 @@ if (logInput === null) {
     alert((massege = greet));
   }
 }
+

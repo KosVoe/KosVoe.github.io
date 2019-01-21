@@ -23,7 +23,7 @@ for (let i of numbers) {
 {
 }
 if (numbers.length >= 1) {
-  alert(`sum of all numbers ${ttl}`);
+  alert(`sum of  all numbers ${ttl}`);
 } else {
   userInput;
 }
